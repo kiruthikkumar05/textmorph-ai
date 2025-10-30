@@ -1,0 +1,11 @@
+summarization:
+  model: "facebook/bart-large-cnn"
+  max_length: 120
+  min_length: 30
+
+paraphrasing:
+  model: "Vamsi/T5_Paraphrase_Paws"
+  max_length: 150
+
+sentiment:
+  model: "distilbert-base-uncased-finetuned-sst-2-english"
